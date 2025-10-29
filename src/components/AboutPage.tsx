@@ -48,7 +48,7 @@ export default function AboutPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
               Founded with a vision to bring soft water to every household, Softwell Water Softeners has been transforming
-              lives for over 15 years. What started as a small operation has grown into a trusted name in water
+              lives for over 7 years. What started as a small operation has grown into a trusted name in water
               softening solutions across the region.
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
