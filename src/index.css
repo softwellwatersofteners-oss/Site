@@ -3,17 +3,22 @@
 @tailwind utilities;
 
 @layer base {
+  /* Smooth scrolling */
   html {
     scroll-behavior: smooth;
   }
 
+  /* Base styles */
+  html, body, #root {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    width: 100%;
+    box-sizing: border-box;
+  }
+
   body {
     @apply antialiased;
-
-    /* Disable horizontal scrolling on small screens */
-    @media (max-width: 768px) {
-      overflow-x: hidden;
-    }
   }
 }
 
