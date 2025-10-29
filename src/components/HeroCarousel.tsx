@@ -115,19 +115,6 @@ export default function HeroCarousel() {
         );
       })}
 
-      <button
-        onClick={prevSlide}
-        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/20 backdrop-blur-sm text-white p-3 rounded-full hover:bg-white/30 transition-all duration-300 z-10"
-      >
-        <ChevronLeft className="h-6 w-6" />
-      </button>
-
-      <button
-        onClick={nextSlide}
-        className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/20 backdrop-blur-sm text-white p-3 rounded-full hover:bg-white/30 transition-all duration-300 z-10"
-      >
-        <ChevronRight className="h-6 w-6" />
-      </button>
 
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex space-x-3 z-10">
         {slides.map((_, index) => (
