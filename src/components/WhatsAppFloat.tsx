@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { MessageCircle } from 'lucide-react';
 
 export default function WhatsAppFloat() {
-  const phoneNumber = '9392052243';
+  const phoneNumber = '919392052243'; // Updated number with country code
   const message = 'Hi! I would like to know more about Aqua Drop water softeners.';
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
