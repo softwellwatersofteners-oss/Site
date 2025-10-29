@@ -30,12 +30,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center space-x-2">
-            <div className="bg-gradient-to-br from-blue-500 to-cyan-400 p-2 rounded-lg">
-              <Droplet className="h-8 w-8 text-white" />
-            </div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
-              Softwell Water Softeners
-            </span>
+              <img src="/logo.jpg" alt="Softwell Water Softeners Logo" className="w-20 h-20 object-contain" />
           </div>
 
           <div className="hidden md:flex space-x-8">

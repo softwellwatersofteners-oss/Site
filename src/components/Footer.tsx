@@ -25,10 +25,7 @@ export default function Footer() {
           {/* Brand Info */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="bg-gradient-to-br from-blue-500 to-cyan-400 p-2 rounded-lg">
-                <Droplet className="h-5 w-5 text-white" />
-              </div>
-              <span className="text-1xl font-bold">Softwell Water Softeners</span>
+                <img src="/logo.jpg" alt="Softwell Water Softeners Logo" className="w-20 h-20 object-contain" />
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Transforming lives with soft water solutions. Your trusted partner in water softening excellence.
