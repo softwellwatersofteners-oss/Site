@@ -45,8 +45,8 @@ export default function HomePage() {
   },
   {
     icon: Award,
-    title: '3-Year Manufacturing Warranty',
-    description: 'Comes with a comprehensive 3-year warranty for your peace of mind.',
+    title: '3-Year Manufacturing Warranty and electrical 6 months Warranty',
+    description: 'Comes with a comprehensive 3-year manufacturing warranty and 6 months Warranty for your peace of mind.',
   },
   ];
 
