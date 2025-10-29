@@ -22,12 +22,13 @@ export default function Footer() {
     <footer className="bg-gray-900 text-white pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+          {/* Brand Info */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="bg-gradient-to-br from-blue-500 to-cyan-400 p-2 rounded-lg">
-                <Droplet className="h-8 w-8 text-white" />
+                <Droplet className="h-5 w-5 text-white" />
               </div>
-              <span className="text-2xl font-bold">Aqua Drop</span>
+              <span className="text-1xl font-bold">Softwell Water Softeners</span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Transforming lives with pure, soft water solutions. Your trusted partner in water softening excellence.
@@ -48,6 +49,7 @@ export default function Footer() {
             </div>
           </div>
 
+          {/* Quick Links */}
           <div>
             <h3 className="text-lg font-bold mb-4">Quick Links</h3>
             <ul className="space-y-3">
@@ -64,6 +66,7 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Services */}
           <div>
             <h3 className="text-lg font-bold mb-4">Our Services</h3>
             <ul className="space-y-3">
@@ -80,36 +83,36 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Contact Info */}
           <div>
             <h3 className="text-lg font-bold mb-4">Contact Info</h3>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-blue-400 flex-shrink-0 mt-1" />
                 <p className="text-gray-400">
-                  123 Water Street, Suite 100<br />
-                  Springfield, ST 12345<br />
-                  United States
+                  Plot No.18, Second Floor,<br />
+                  Venkateswar Colony, Sri Laxmi Narayana Nilayam,<br />
+                  Uppal, Medchal–Malkajigiri,<br />
+                  Hyderabad, Telangana, 500039.
                 </p>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-blue-400 flex-shrink-0" />
-                <div>
-                  <p className="text-gray-400">+1 (555) 123-4567</p>
-                  <p className="text-gray-400">+1 (555) 987-6543</p>
-                </div>
+                <p className="text-gray-400">+91 7207351855</p>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-blue-400 flex-shrink-0" />
-                <p className="text-gray-400">info@aquadrop.com</p>
+                <p className="text-gray-400">softwellwatersofteners@gmail.com</p>
               </div>
             </div>
           </div>
         </div>
 
+        {/* Footer Bottom */}
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              &copy; {new Date().getFullYear()} Aqua Drop. All rights reserved.
+              &copy; {new Date().getFullYear()} Softwell Water Softeners. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors duration-200">

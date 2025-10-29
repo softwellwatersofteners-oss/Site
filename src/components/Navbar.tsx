@@ -34,7 +34,7 @@ export default function Navbar() {
               <Droplet className="h-8 w-8 text-white" />
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
-              AGO Aqua Solutions
+              Softwell Water Softeners
             </span>
           </div>
 

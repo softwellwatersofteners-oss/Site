@@ -27,12 +27,6 @@ export default function ServicesPage() {
       features: ['Annual maintenance', 'Emergency repairs', 'Genuine parts', 'Extended warranties'],
     },
     {
-      icon: FlaskConical,
-      title: 'Water Testing',
-      description: 'Comprehensive water quality testing to determine hardness levels and recommend the ideal softening solution for your specific needs.',
-      features: ['Free testing', 'Detailed analysis', 'Custom recommendations', 'Follow-up testing'],
-    },
-    {
       icon: HeadphonesIcon,
       title: 'Customer Support',
       description: 'Dedicated customer support team available to answer questions, provide guidance, and ensure your complete satisfaction.',
