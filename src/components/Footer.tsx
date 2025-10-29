@@ -14,7 +14,6 @@ export default function Footer() {
     'Commercial Solutions',
     'Installation',
     'Maintenance',
-    'Water Testing',
     'Support',
   ];
 
