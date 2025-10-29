@@ -5,9 +5,9 @@ import WaterWaves from './WaterWaves';
 const slides = [
   {
     id: 1,
-    title: 'Pure Water, Pure Life',
-    subtitle: 'Welcome to Aqua Drop',
-    description: 'Transform your hard water into soft, pure water with our cutting-edge water softening solutions. Experience the difference in every drop.',
+    title: 'Soft Water, Pure Life',
+    subtitle: 'Welcome to Softwell Water Softeners',
+    description: 'Transform your hard water into soft water with our cutting-edge water softening solutions. Experience the difference in every drop.',
     hasWaterWaves: true,
     bgGradient: 'from-blue-600 via-cyan-500 to-blue-700',
   },
@@ -38,7 +38,7 @@ const slides = [
     id: 5,
     title: 'Trusted Excellence',
     subtitle: 'Your Water, Our Priority',
-    description: 'Join thousands of satisfied customers who trust Aqua Drop for their water softening needs. Professional installation, reliable service, and exceptional results.',
+    description: 'Join thousands of satisfied customers who trust Softwell Water Softeners for their water softening needs. Professional installation, reliable service, and exceptional results.',
     icon: Award,
     bgImage: 'https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg?auto=compress&cs=tinysrgb&w=1920',
   },

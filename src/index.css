@@ -8,17 +8,31 @@
     scroll-behavior: smooth;
   }
 
-  /* Base styles */
-  html, body, #root {
+  /* Prevent layout shifting and horizontal scroll on all devices */
+  html,
+  body,
+  #root {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
     width: 100%;
+    max-width: 100vw;       /* Never exceed viewport width */
+    overflow-x: hidden;     /* Disable horizontal scroll */
     box-sizing: border-box;
   }
 
   body {
     @apply antialiased;
+  }
+
+  /* Fix zoom-related overflow issues on small screens */
+  @media (max-width: 768px) {
+    html,
+    body {
+      overflow-x: hidden;
+      max-width: 100%;
+      transform: scale(0.98); /* Slight zoom-out for better fit */
+      transform-origin: top center;
+    }
   }
 }
 

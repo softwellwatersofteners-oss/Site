@@ -125,6 +125,63 @@ export default function TechnologyPage() {
           </p>
         </div>
 
+        <div className="mb-20">
+  <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
+    Softwell Electrode Softening Technology – How It Works
+  </h2>
+  <p className="text-gray-700 leading-relaxed text-lg max-w-4xl mx-auto">
+    Softwell Electrode Water Softener works on an advanced electro-coagulation principle to
+    eliminate scale without adding any chemicals. The system generates oxidants within the
+    water, which effectively prevent corrosion, bio-fouling, microbial growth, scaling, and
+    the spread of airborne bacteria—ensuring a clean and safe water system.
+  </p>
+  <p className="text-gray-700 leading-relaxed text-lg max-w-4xl mx-auto mt-4">
+    During operation, an electrical potential is created between the positive and negative
+    electrodes. This causes a localized high pH near the cathode, where scale-forming minerals
+    such as calcium and magnesium are separated and collected inside the reactor. Although
+    the water leaving the unit is not fully softened, the scale-forming ions are reduced to
+    levels that prevent deposition in pipelines, condensers, and other equipment.
+  </p>
+  <p className="text-gray-700 leading-relaxed text-lg max-w-4xl mx-auto mt-4">
+    The Electro Softening Chamber (ESC) accelerates the precipitation of all scale-forming
+    particles—including calcium, magnesium, silica, iron, and manganese—under controlled
+    conditions of high pH. This prevents them from adhering to surfaces within the water
+    distribution system.
+  </p>
+  <p className="text-gray-700 leading-relaxed text-lg max-w-4xl mx-auto mt-4">
+    In cooling towers and condensers, even a 1 mm thick scale layer can increase energy
+    consumption by up to 30% due to poor heat transfer. By continuously preventing scale
+    deposition, Softwell maintains efficient heat exchange performance.
+  </p>
+  <p className="text-gray-700 leading-relaxed text-lg max-w-4xl mx-auto mt-4">
+    Through ionization and electrochemical reactions, scale particles precipitate in
+    suspension and are flushed out, rather than sticking to heat exchangers or pipelines.
+    Over time, existing scales are gradually removed, maintaining the system’s efficiency and
+    preserving the original Delta T.
+  </p>
+  <p className="text-gray-700 leading-relaxed text-lg max-w-4xl mx-auto mt-4">
+    As a result, energy consumption is reduced, system life is extended, and maintenance
+    costs are minimized—providing a long-term, eco-friendly, and cost-effective water
+    treatment solution.
+  </p>
+  <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4 text-center">
+    The Electrolytic Chamber
+  </h3>
+  <p className="text-gray-700 leading-relaxed text-lg max-w-4xl mx-auto">
+    The Electrolytic Chamber in the Softwell Scale Remover is a specially designed DC-powered
+    unit that contains two electrodes—an anode and a cathode made from durable, long-lasting
+    materials. When water passes through the chamber, a gentle electric current triggers a
+    natural reaction that converts hardness minerals like calcium and magnesium into harmless
+    solid particles. These particles are collected on the cathode surface and later flushed
+    out during cleaning.
+  </p>
+  <p className="text-gray-700 leading-relaxed text-lg max-w-4xl mx-auto mt-4">
+    This process effectively prevents scale formation inside pipes, heaters, and other water
+    system components—ensuring smooth water flow and longer equipment life.
+  </p>
+</div>
+
+
         {/* Banner Image */}
         <div className="mb-20 flex justify-center">
           <img
@@ -134,29 +191,6 @@ export default function TechnologyPage() {
           />
         </div>
 
-        {/* Working Principle Section */}
-        <div className="mb-20">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
-            How It Works
-          </h2>
-          <p className="text-gray-700 leading-relaxed text-lg max-w-4xl mx-auto">
-            The Softwell system operates by generating a gentle electric current between two
-            electrodes—an anode and a cathode—within the Electrolytic Chamber. This creates a
-            localized high-pH zone that converts hardness minerals like calcium and magnesium into
-            harmless solid particles. These are collected on the cathode surface and flushed out
-            during cleaning.
-          </p>
-          <p className="text-gray-700 leading-relaxed text-lg max-w-4xl mx-auto mt-4">
-            This process effectively prevents scale buildup in pipelines, heaters, condensers, and
-            other components. Over time, even existing scale deposits are gradually removed,
-            restoring system efficiency and reducing energy consumption.
-          </p>
-          <p className="text-gray-700 leading-relaxed text-lg max-w-4xl mx-auto mt-4">
-            As a result, maintenance costs are minimized, heat transfer performance remains optimal,
-            and the overall system life is extended—making it a sustainable and cost-effective water
-            treatment solution.
-          </p>
-        </div>
 
         {/* Technology Cards Section */}
         <div className="grid md:grid-cols-2 gap-8 mb-20">
@@ -178,6 +212,36 @@ export default function TechnologyPage() {
             );
           })}
         </div>
+        <div className="space-y-4">
+        <h3 className="text-2xl font-semibold text-gray-800">Agriculture Sector</h3>
+        <h3 className="text-xxl text-gray-500">Nourishes crops without leaving mineral residues, ensuring healthier yields and fertile soil.</h3>
+        <img
+          src="agri.jpeg"
+          alt="After using soft water - spotless bathroom"
+          className="rounded-2xl shadow-lg object-cover w-full h-34"
+        />
+        <h3 className="text-2xl font-semibold text-gray-800">Industrial Sector</h3>
+        <h3 className="text-xxl text-gray-500">Water protects machinery and boilers from scale, boosting efficiency and reducing maintenance costs</h3>
+        <img
+          src="indus.jpeg"
+          alt="After using soft water - spotless bathroom"
+          className="rounded-2xl shadow-lg object-cover w-full h-34"
+        />
+        <h3 className="text-2xl font-semibold text-gray-800">Apartment</h3>
+        <h3 className="text-xxl text-gray-500">Keeps plumbing and appliances scale-free, extending their life and enhancing comfort for residents.</h3>
+        <img
+          src="apart.jpeg"
+          alt="After using soft water - spotless bathroom"
+          className="rounded-2xl shadow-lg object-cover w-full h-34"
+        />
+        <h3 className="text-2xl font-semibold text-gray-800">Houses</h3>
+        <h3 className="text-xxl text-gray-500">Makes cleaning easier, protects your fixtures, and leaves skin and hair naturally soft.</h3>
+        <img
+          src="hus.jpeg"
+          alt="After using soft water - spotless bathroom"
+          className="rounded-2xl shadow-lg object-cover w-full h-34"
+        />
+      </div>
 
         {/* Features Section */}
         <div>

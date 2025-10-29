@@ -15,19 +15,16 @@ export default function ContactPage() {
       message: e.target.message.value,
     };
 
-    try {
-      const res = await fetch('/api/send-sms', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
-      });
+    // Format the message for WhatsApp
+    const whatsappMessage = `New Contact Form Submission:\n\nName: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone}\nMessage: ${data.message}`;
+    const whatsappNumber = '919392052243';
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
-      if (res.ok) {
-        alert('Message sent successfully!');
-        e.target.reset();
-      } else {
-        alert('Failed to send message. Please try again.');
-      }
+    try {
+      // Open WhatsApp in a new window
+      window.open(whatsappUrl, '_blank');
+      alert('Redirecting to WhatsApp...');
+      e.target.reset();
     } catch (error) {
       console.error(error);
       alert('An error occurred. Please try again.');

@@ -31,7 +31,7 @@ export default function Footer() {
               <span className="text-1xl font-bold">Softwell Water Softeners</span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Transforming lives with pure, soft water solutions. Your trusted partner in water softening excellence.
+              Transforming lives with soft water solutions. Your trusted partner in water softening excellence.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-blue-600 transition-colors duration-300">

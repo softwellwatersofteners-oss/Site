@@ -36,7 +36,7 @@ export default function AboutPage() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-            About Aqua Drop
+            About Softwell Water Softeners
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Leading the way in water softening solutions with passion, expertise, and commitment to excellence
@@ -54,7 +54,7 @@ export default function AboutPage() {
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Founded with a vision to bring pure, soft water to every household, Aqua Drop has been transforming
+              Founded with a vision to bring soft water to every household, Softwell Water Softeners has been transforming
               lives for over 15 years. What started as a small operation has grown into a trusted name in water
               softening solutions across the region.
             </p>

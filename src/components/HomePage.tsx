@@ -106,7 +106,7 @@ export default function HomePage() {
       <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
         Hard water affects millions of homes, causing scale buildup, dry skin, and reduced appliance efficiency.
         <span className="font-semibold text-blue-600"> Softwell transforms your water quality</span>,
-        delivering soft, pure water that protects your home, saves you money, and improves your daily life.
+        delivering soft water that protects your home, saves you money, and improves your daily life.
         Experience the difference that premium water softening technology can make.
       </p>
     </div>
@@ -213,6 +213,16 @@ export default function HomePage() {
           alt="Before using soft water - limescale buildup"
           className="rounded-2xl shadow-lg object-cover w-full h-64"
         />
+        <img
+          src="pipeha.jpeg"
+          alt="Before using soft water - limescale buildup"
+          className="rounded-2xl shadow-lg object-cover w-full h-64"
+        />
+        <img
+          src="skinha.jpeg"
+          alt="Before using soft water - limescale buildup"
+          className="rounded-2xl shadow-lg object-cover w-full h-64"
+        />
       </div>
       <div className="space-y-4">
         <h3 className="text-2xl font-semibold text-gray-800">After Softwell</h3>
@@ -223,6 +233,16 @@ export default function HomePage() {
         />
         <img
           src="shower.jpeg"
+          alt="After using soft water - spotless bathroom"
+          className="rounded-2xl shadow-lg object-cover w-full h-64"
+        />
+        <img
+          src="pipesf.jpeg"
+          alt="After using soft water - spotless bathroom"
+          className="rounded-2xl shadow-lg object-cover w-full h-64"
+        />
+        <img
+          src="skinsf.jpeg"
           alt="After using soft water - spotless bathroom"
           className="rounded-2xl shadow-lg object-cover w-full h-64"
         />
