@@ -9,6 +9,11 @@
 
   body {
     @apply antialiased;
+
+    /* Disable horizontal scrolling on small screens */
+    @media (max-width: 768px) {
+      overflow-x: hidden;
+    }
   }
 }
 
