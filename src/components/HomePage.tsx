@@ -204,12 +204,12 @@ export default function HomePage() {
       <div className="space-y-4">
         <h3 className="text-2xl font-semibold text-gray-800">Before Softwell</h3>
         <img
-          src="./public/hairfall.jpeg"
+          src="hairfall.jpeg"
           alt="Before using soft water - limescale buildup"
           className="rounded-2xl shadow-lg object-cover w-full h-64"
         />
         <img
-          src="./public/showerb.jpeg"
+          src="showerb.jpeg"
           alt="Before using soft water - limescale buildup"
           className="rounded-2xl shadow-lg object-cover w-full h-64"
         />
@@ -217,12 +217,12 @@ export default function HomePage() {
       <div className="space-y-4">
         <h3 className="text-2xl font-semibold text-gray-800">After Softwell</h3>
         <img
-          src="./public/hairfull.jpeg"
+          src="hairfull.jpeg"
           alt="After using soft water - spotless bathroom"
           className="rounded-2xl shadow-lg object-cover w-full h-64"
         />
         <img
-          src="./public/shower.jpeg"
+          src="shower.jpeg"
           alt="After using soft water - spotless bathroom"
           className="rounded-2xl shadow-lg object-cover w-full h-64"
         />
