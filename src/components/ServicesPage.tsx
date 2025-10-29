@@ -18,7 +18,7 @@ export default function ServicesPage() {
       icon: Wrench,
       title: 'Installation Services',
       description: 'Expert installation by certified technicians ensuring optimal performance and longevity of your water softening system.',
-      features: ['Licensed technicians', 'Quality guarantee', 'Same-day service', 'Full system testing'],
+      features: ['Quality guarantee', 'Same-day service', 'Full system testing'],
     },
     {
       icon: Settings,

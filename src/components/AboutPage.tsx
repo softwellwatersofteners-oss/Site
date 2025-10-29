@@ -24,13 +24,6 @@ export default function AboutPage() {
     },
   ];
 
-  const achievements = [
-    { number: '10,000+', label: 'Happy Customers' },
-    { number: '15+', label: 'Years Experience' },
-    { number: '98%', label: 'Customer Satisfaction' },
-    { number: '50+', label: 'Expert Technicians' },
-  ];
-
   return (
     <div id="about" className="py-20 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
@@ -109,22 +102,6 @@ export default function AboutPage() {
                 </div>
               );
             })}
-          </div>
-        </div>
-
-        <div className="bg-gray-50 rounded-3xl p-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">
-            Our Achievements
-          </h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {achievements.map((achievement) => (
-              <div key={achievement.label} className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-blue-600 mb-2">
-                  {achievement.number}
-                </div>
-                <div className="text-gray-600 font-medium">{achievement.label}</div>
-              </div>
-            ))}
           </div>
         </div>
       </div>

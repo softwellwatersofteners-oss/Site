@@ -5,7 +5,7 @@ import WaterWaves from './WaterWaves';
 const slides = [
   {
     id: 1,
-    title: 'Soft Water, Pure Life',
+    title: 'Soft Water, smart choice',
     subtitle: 'Welcome to Softwell Water Softeners',
     description: 'Transform your hard water into soft water with our cutting-edge water softening solutions. Experience the difference in every drop.',
     hasWaterWaves: true,
