@@ -45,8 +45,8 @@ export default function HomePage() {
   },
   {
     icon: Award,
-    title: '3-Year Manufacturing Warranty and electrical 6 months Warranty',
-    description: 'Comes with a comprehensive 3-year manufacturing warranty and 6 months Warranty for your peace of mind.',
+    title: '3-Year Manufacturing Warranty electrical 6 months Warranty and Reactor 2 years warranty',
+    description: 'Comes with a comprehensive 3-year manufacturing warranty, 6 months Warranty and reactor 2 years warranty for your peace of mind.',
   },
   ];
 
