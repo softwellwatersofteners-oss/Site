@@ -145,7 +145,7 @@ export default function ContactPage() {
                     <p className="text-gray-600">
                       Plot No.18, Second Floor, Venkateswar Colony,<br />
                       Sri Laxmi Narayana Nilayam, Uppal,<br />
-                      MedchalMalkajigiri, Hyderabad, Telangana, 500039
+                      Medchal Malkajgiri, Hyderabad, Telangana, 500039
                     </p>
                   </div>
                 </div>
@@ -158,7 +158,6 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Business Hours</h3>
                     <p className="text-gray-600">Monday - Sunday: 9:00 AM - 8:00 PM</p>
-                    </p>
                   </div>
                 </div>
               </div>
