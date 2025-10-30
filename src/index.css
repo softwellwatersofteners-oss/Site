@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ---------------------------------------- */
+/* Base Layer: Global styles and resets */
+/* ---------------------------------------- */
 @layer base {
-  /* Smooth scrolling */
+  /* Smooth scrolling for in-page navigation */
   html {
     scroll-behavior: smooth;
   }
@@ -15,13 +18,26 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    max-width: 100vw;       /* Never exceed viewport width */
-    overflow-x: hidden;     /* Disable horizontal scroll */
+    max-width: 100vw; /* Never exceed viewport width */
+    overflow-x: hidden; /* Disable horizontal scroll */
     box-sizing: border-box;
   }
 
   body {
-    @apply antialiased;
+    @apply antialiased bg-white text-gray-900;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Ensure the main content grows and footer stays at the bottom */
+  main {
+    flex: 1 0 auto;
+  }
+
+  header,
+  footer {
+    flex-shrink: 0;
   }
 
   /* Fix zoom-related overflow issues on small screens */
@@ -30,15 +46,18 @@
     body {
       overflow-x: hidden;
       max-width: 100%;
-      transform: scale(0.98); /* Slight zoom-out for better fit */
-      transform-origin: top center;
+      /* Avoid scaling to prevent text blur on small devices */
+      transform: none;
     }
   }
 }
 
+/* ---------------------------------------- */
+/* Utility Layer: Custom animations or helpers */
+/* ---------------------------------------- */
 @layer utilities {
   .animate-fadeIn {
-    animation: fadeIn 1s ease-in;
+    animation: fadeIn 0.8s ease-in-out both;
   }
 
   @keyframes fadeIn {
@@ -50,5 +69,20 @@
       opacity: 1;
       transform: translateY(0);
     }
+  }
+
+  /* Prevent scrolling above header and below footer */
+  .no-extra-scroll {
+    scroll-snap-type: y mandatory;
+    overflow-y: auto;
+  }
+
+  header,
+  footer {
+    scroll-snap-align: start;
+  }
+
+  main {
+    scroll-snap-align: none;
   }
 }
