@@ -24,7 +24,7 @@ const slides = [
     title: 'The Transformation',
     subtitle: 'Before & After',
     description: 'See the dramatic difference in pipe cleanliness and efficiency. Hard water leaves mineral deposits that clog pipes. Our softeners eliminate scale buildup, extending the life of your plumbing.',
-    bgImage: 'https://images.pexels.com/photos/12726229/pexels-photo-12726229.jpeg',
+    bgImage: 'c3.jpeg',
   },
   {
     id: 4,

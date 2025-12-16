@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://softwellwatersofteners.com/sitemap.xml
+Host: softwellwatersofteners.com
